@@ -1,0 +1,13 @@
+{
+  "name": "@mguv/advent-2022",
+  "version": "0.0.1",
+  "repository": "git@github.com:mGuv/Advent2022.git",
+  "author": "mGuv <mguv.dev@gmail.com>",
+  "dependencies": {
+    "typescript": "^4.9.3"
+  },
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "start": "yarn build && node dist/index.js"
+  }
+}
