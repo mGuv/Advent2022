@@ -1,5 +1,5 @@
 import * as dotenv from "dotenv";
-import day1part1 from "./day1/day1part1";
+import day2part2 from "./day2/day2part2";
 import getInputAsync from "./getInput";
 
 // Read in env vars
@@ -7,8 +7,8 @@ dotenv.config();
 
 // Async wrapper function for entry promise
 const runner = async () => {
-  const data = await getInputAsync("2022", "1");
-  day1part1(data);
+  const data = await getInputAsync("2022", "2");
+  day2part2(data);
 };
 
 // Entry promise to turn stack async
