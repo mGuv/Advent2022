@@ -1,5 +1,5 @@
 import * as dotenv from "dotenv";
-import puzzle from "./day3/day3part2";
+import puzzle from "./day4/day4part2";
 import getInputAsync from "./getInput";
 
 // Read in env vars
@@ -7,7 +7,7 @@ dotenv.config();
 
 // Async wrapper function for entry promise
 const runner = async () => {
-  const data = await getInputAsync("2022", "3");
+  const data = await getInputAsync("2022", "4");
   puzzle(data);
 };
 
